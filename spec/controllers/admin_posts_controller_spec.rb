@@ -1,13 +1,15 @@
 require 'spec_helper'
 
 describe Admin::PostsController do
-  let!(:post){ Factory(:post) }
-  let!(:tag1){ Factory(:tag) }
-  let!(:tag2){ Factory(:tag) }
-  let!(:user){ Factory(:user) }
+  let!(:post){ FactoryGirl.create(:post) }
+  let!(:tag1){ FactoryGirl.create(:tag) }
+  let!(:tag2){ FactoryGirl.create(:tag) }
+  let!(:user){ FactoryGirl.create(:user) }
 
   before do
-    admin_login_as
+    @request.env["devise.mapping"] = Devise.mappings[:admin_user]
+    sign_in FactoryGirl.create(:admin_user)
+    #admin_login_as
     post.tags << tag1
   end
   
@@ -19,7 +21,7 @@ describe Admin::PostsController do
     end
     
     it { should respond_with(:redirect) }
-    it { should set_the_flash.to('The recored has been related.') }
+    it { should set_flash.to('The recored has been related.') }
 
     it "adds a new tagging" do
       Tagging.count.should == @initial_tagging_count + 1
@@ -37,7 +39,7 @@ describe Admin::PostsController do
     end
     
     it { should respond_with(:redirect) }
-    it { should set_the_flash.to('The recored has been related.') }
+    it { should set_flash.to('The recored has been related.') }
     
     it 'properly relates the record' do
       post.reload.creator(true).should == user
@@ -52,7 +54,7 @@ describe Admin::PostsController do
     end
     
     it { should respond_with(:redirect) }
-    it { should set_the_flash.to('The recored has been unrelated.') }
+    it { should set_flash.to('The recored has been unrelated.') }
 
     it "removes a tagging" do
       Tagging.count.should == @initial_tagging_count -1
@@ -69,7 +71,7 @@ describe Admin::PostsController do
     end
     
     it { should respond_with(:redirect) }
-    it { should set_the_flash.to('The recored has been unrelated.') }
+    it { should set_flash.to('The recored has been unrelated.') }
 
     it "removes the creator" do
       post.reload.creator(true).should be_nil

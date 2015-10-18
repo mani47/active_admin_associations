@@ -7,7 +7,7 @@ module ActiveAdmin
   
   class << self
     def resources
-      application.namespaces.values.map{|n| 
+      application.namespaces.each{|n| 
         n.resources.send(:resources)
       }.flatten.compact.select{|r|
         r.class == ActiveAdmin::Resource

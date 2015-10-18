@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe ActiveAdminAssociations::Autocompleter do
-  let!(:tag) { Factory(:tag, :name => "Space") }
+  let!(:tag) { FactoryGirl.create(:tag, :name => "Space") }
   
   context 'with a custom formatter' do
     before do

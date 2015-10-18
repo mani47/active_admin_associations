@@ -6,7 +6,6 @@ Coveralls.wear! 'rails'
 
 require File.expand_path("../dummy/config/environment.rb",  __FILE__)
 require 'rspec/rails'
-require 'rspec/autorun'
 require 'shoulda-matchers'
 require 'capybara/rails'
 require 'capybara/rspec'
@@ -32,10 +31,19 @@ RSpec.configure do |config|
   config.include Warden::Test::Helpers, :type => :feature
   config.include AdminLoginIntegrationHelper, :type => :feature
   config.include AdminLoginControllerHelper, :type => :controller
+  
+  config.infer_spec_type_from_file_location!
 
   config.after(:each, :type => :request) do
     DatabaseCleaner.clean       # Truncate the database
     Capybara.reset_sessions!    # Forget the (simulated) browser state
     Capybara.use_default_driver # Revert Capybara.current_driver to Capybara.default_driver
+  end
+end
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
   end
 end

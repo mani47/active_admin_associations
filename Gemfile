@@ -1,9 +1,10 @@
 source "http://rubygems.org"
+ruby '2.2.2'
 
-gem 'meta_search', '>= 1.1.0.pre'
 gem 'kaminari'
-gem 'formtastic', '~> 2.1' # Until activeadmin updates for formatastic 2.1+
-gem 'sass-rails', '~> 3.2.6'
+gem 'formtastic'
+gem 'sass-rails'
 gem 'launchy'
+gem 'devise', '~> 3.4.0'
 
 gemspec

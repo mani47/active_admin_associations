@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe AutocompleteController do
-  let!(:tag){ Factory(:tag, :name => 'Music') }
+  let!(:tag){ FactoryGirl.create(:tag, :name => 'Music') }
   
   describe 'get #index' do
     before do
@@ -9,7 +9,7 @@ describe AutocompleteController do
     end
     
     it { should respond_with(:success) }
-    it { should respond_with_content_type(:json) }
+    it { response.header['Content-Type'].should include 'application/json' }
   end
 
   describe 'get #index with autocomplete_query_term_param_names config setting set' do
@@ -22,7 +22,7 @@ describe AutocompleteController do
     end
     
     it { should respond_with(:success) }
-    it { should respond_with_content_type(:json) }
+    it { response.header['Content-Type'].should include 'application/json' }
   end
   
   describe 'get #index with no value' do
@@ -31,6 +31,6 @@ describe AutocompleteController do
     end
     
     it { should respond_with(:success) }
-    it { should respond_with_content_type(:json) }
+    it { response.header['Content-Type'].should include 'application/json' }
   end
 end
