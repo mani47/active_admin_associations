@@ -23306,3 +23306,914 @@ Processing by Admin::TagsController#edit as HTML
   Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/resource/edit.html.arb (20.9ms)
 Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.4ms)
   [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Space"], ["created_at", "2015-10-19 10:20:38.148347"], ["updated_at", "2015-10-19 10:20:38.148347"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTag Load (0.4ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE (LOWER(tags.name) LIKE 'spa%')  ORDER BY tags.name ASC[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Space"], ["created_at", "2015-10-19 10:20:38.157371"], ["updated_at", "2015-10-19 10:20:38.157371"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE (LOWER(tags.name) LIKE 'spa%')  ORDER BY tags.name ASC[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "taggings" WHERE "taggings"."tag_id" = ?  [["tag_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "taggings" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 1]]
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Space"], ["created_at", "2015-10-19 10:20:38.182419"], ["updated_at", "2015-10-19 10:20:38.182419"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE (LOWER(tags.name) LIKE 'spa%')  ORDER BY tags.name ASC[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Space"], ["created_at", "2015-10-19 10:20:38.186817"], ["updated_at", "2015-10-19 10:20:38.186817"]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE (LOWER(tags.name) LIKE 'spa%')  ORDER BY tags.name ASC[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.202065"], ["updated_at", "2015-10-19 10:20:38.202065"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.207184"], ["updated_at", "2015-10-19 10:20:38.207184"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag1"], ["created_at", "2015-10-19 10:20:38.210418"], ["updated_at", "2015-10-19 10:20:38.210418"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag2"], ["created_at", "2015-10-19 10:20:38.211957"], ["updated_at", "2015-10-19 10:20:38.211957"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.213375"], ["updated_at", "2015-10-19 10:20:38.213375"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin1@example.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin1@example.com"], ["encrypted_password", "$2a$04$4SLe1xtmBWFMvIMJiCJdD.Guq1BKsP8yDs2O.K/PQ6XQVyZLfiToS"], ["created_at", "2015-10-19 10:20:38.235038"], ["updated_at", "2015-10-19 10:20:38.235038"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.249931"], ["updated_at", "2015-10-19 10:20:38.249931"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "taggings"
+Processing by Admin::PostsController#unrelate as HTML
+  Parameters: {"relationship_name"=>"tags", "related_id"=>"1", "id"=>"1"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTag Load (0.3ms)[0m  SELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "taggings" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ? AND "taggings"."tag_id" = 1[0m  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 12ms (ActiveRecord: 0.6ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.270627"], ["updated_at", "2015-10-19 10:20:38.270627"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.272164"], ["updated_at", "2015-10-19 10:20:38.272164"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag3"], ["created_at", "2015-10-19 10:20:38.273793"], ["updated_at", "2015-10-19 10:20:38.273793"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag4"], ["created_at", "2015-10-19 10:20:38.274947"], ["updated_at", "2015-10-19 10:20:38.274947"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.276099"], ["updated_at", "2015-10-19 10:20:38.276099"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdminUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin2@example.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "admin2@example.com"], ["encrypted_password", "$2a$04$/iEONtQSBxrDv8Z7d24y3.Agkdfp2ubxx/6bBxWkDJbeh.drB8Dqq"], ["created_at", "2015-10-19 10:20:38.279926"], ["updated_at", "2015-10-19 10:20:38.279926"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.282644"], ["updated_at", "2015-10-19 10:20:38.282644"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "taggings"[0m
+Processing by Admin::PostsController#unrelate as HTML
+  Parameters: {"relationship_name"=>"tags", "related_id"=>"1", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "taggings" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ? AND "taggings"."tag_id" = 1  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ?  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.294939"], ["updated_at", "2015-10-19 10:20:38.294939"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.296444"], ["updated_at", "2015-10-19 10:20:38.296444"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag5"], ["created_at", "2015-10-19 10:20:38.298248"], ["updated_at", "2015-10-19 10:20:38.298248"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag6"], ["created_at", "2015-10-19 10:20:38.299546"], ["updated_at", "2015-10-19 10:20:38.299546"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.300931"], ["updated_at", "2015-10-19 10:20:38.300931"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdminUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin3@example.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "admin3@example.com"], ["encrypted_password", "$2a$04$0Hlyixb920IQae7Wq8c.DuW9lp3MUwyFGuJTZT6TDUoLa4u4rzDF6"], ["created_at", "2015-10-19 10:20:38.304836"], ["updated_at", "2015-10-19 10:20:38.304836"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.307981"], ["updated_at", "2015-10-19 10:20:38.307981"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "taggings"[0m
+Processing by Admin::PostsController#unrelate as HTML
+  Parameters: {"relationship_name"=>"tags", "related_id"=>"1", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTag Load (0.0ms)[0m  [1mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "taggings" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ? AND "taggings"."tag_id" = 1  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "taggings"
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.317998"], ["updated_at", "2015-10-19 10:20:38.317998"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.319759"], ["updated_at", "2015-10-19 10:20:38.319759"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag7"], ["created_at", "2015-10-19 10:20:38.323940"], ["updated_at", "2015-10-19 10:20:38.323940"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag8"], ["created_at", "2015-10-19 10:20:38.325440"], ["updated_at", "2015-10-19 10:20:38.325440"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.340756"], ["updated_at", "2015-10-19 10:20:38.340756"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdminUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin4@example.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "admin4@example.com"], ["encrypted_password", "$2a$04$Rf3SYGlN2xeamiII0JyT0.79kUihnLIxsaaPRAZaTExlRZvrtNYtS"], ["created_at", "2015-10-19 10:20:38.344257"], ["updated_at", "2015-10-19 10:20:38.344257"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.346545"], ["updated_at", "2015-10-19 10:20:38.346545"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "taggings"[0m
+Processing by Admin::PostsController#unrelate as HTML
+  Parameters: {"relationship_name"=>"tags", "related_id"=>"1", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTag Load (0.0ms)[0m  [1mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "taggings" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ? AND "taggings"."tag_id" = 1  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.356551"], ["updated_at", "2015-10-19 10:20:38.356551"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.358939"], ["updated_at", "2015-10-19 10:20:38.358939"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag9"], ["created_at", "2015-10-19 10:20:38.361148"], ["updated_at", "2015-10-19 10:20:38.361148"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag10"], ["created_at", "2015-10-19 10:20:38.362604"], ["updated_at", "2015-10-19 10:20:38.362604"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.364149"], ["updated_at", "2015-10-19 10:20:38.364149"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin5@example.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin5@example.com"], ["encrypted_password", "$2a$04$fMrck8YqlKcrdDvpeJ6XbOv/YuydpckWjfIVliG/sDtBAhEqE.r2K"], ["created_at", "2015-10-19 10:20:38.367658"], ["updated_at", "2015-10-19 10:20:38.367658"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.370051"], ["updated_at", "2015-10-19 10:20:38.370051"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by Admin::PostsController#unrelate as HTML
+  Parameters: {"relationship_name"=>"creator", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "posts" SET "creator_id" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["creator_id", nil], ["updated_at", "2015-10-19 10:20:38.373234"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.378391"], ["updated_at", "2015-10-19 10:20:38.378391"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.380446"], ["updated_at", "2015-10-19 10:20:38.380446"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag11"], ["created_at", "2015-10-19 10:20:38.382757"], ["updated_at", "2015-10-19 10:20:38.382757"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag12"], ["created_at", "2015-10-19 10:20:38.384238"], ["updated_at", "2015-10-19 10:20:38.384238"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.385708"], ["updated_at", "2015-10-19 10:20:38.385708"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdminUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin6@example.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "admin6@example.com"], ["encrypted_password", "$2a$04$MAMyJSvTEKlfzepzL8F/7ue8VbOb64AZOvwuyJZHG5aUtdTBSTMK6"], ["created_at", "2015-10-19 10:20:38.389847"], ["updated_at", "2015-10-19 10:20:38.389847"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.392354"], ["updated_at", "2015-10-19 10:20:38.392354"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Admin::PostsController#unrelate as HTML
+  Parameters: {"relationship_name"=>"creator", "id"=>"1"}
+  [1m[36mAdminUser Load (0.0ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  UPDATE "posts" SET "creator_id" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["creator_id", nil], ["updated_at", "2015-10-19 10:20:38.395687"], ["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.401159"], ["updated_at", "2015-10-19 10:20:38.401159"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.403142"], ["updated_at", "2015-10-19 10:20:38.403142"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag13"], ["created_at", "2015-10-19 10:20:38.405727"], ["updated_at", "2015-10-19 10:20:38.405727"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag14"], ["created_at", "2015-10-19 10:20:38.407372"], ["updated_at", "2015-10-19 10:20:38.407372"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.408915"], ["updated_at", "2015-10-19 10:20:38.408915"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdminUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin7@example.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "admin7@example.com"], ["encrypted_password", "$2a$04$ulhmkq2CsRM11NCvZXsQm.awXyzaSQtcEV8dMiqPE74jeYXCp/uau"], ["created_at", "2015-10-19 10:20:38.412376"], ["updated_at", "2015-10-19 10:20:38.412376"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.414788"], ["updated_at", "2015-10-19 10:20:38.414788"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Admin::PostsController#unrelate as HTML
+  Parameters: {"relationship_name"=>"creator", "id"=>"1"}
+  [1m[36mAdminUser Load (0.0ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  UPDATE "posts" SET "creator_id" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["creator_id", nil], ["updated_at", "2015-10-19 10:20:38.418156"], ["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.423006"], ["updated_at", "2015-10-19 10:20:38.423006"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.424623"], ["updated_at", "2015-10-19 10:20:38.424623"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag15"], ["created_at", "2015-10-19 10:20:38.426281"], ["updated_at", "2015-10-19 10:20:38.426281"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag16"], ["created_at", "2015-10-19 10:20:38.427489"], ["updated_at", "2015-10-19 10:20:38.427489"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.428628"], ["updated_at", "2015-10-19 10:20:38.428628"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin8@example.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin8@example.com"], ["encrypted_password", "$2a$04$4UuOj9auGEEqTbW5bQnyyeY/HHztlDHkyGbw33Y1.1NM9FhrHbRv6"], ["created_at", "2015-10-19 10:20:38.431931"], ["updated_at", "2015-10-19 10:20:38.431931"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.435043"], ["updated_at", "2015-10-19 10:20:38.435043"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by Admin::PostsController#page_related as HTML
+  Parameters: {"relationship_name"=>"tags", "page"=>"2", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_collection_table.html.erb (0.4ms)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.447892"], ["updated_at", "2015-10-19 10:20:38.447892"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.450045"], ["updated_at", "2015-10-19 10:20:38.450045"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag17"], ["created_at", "2015-10-19 10:20:38.452175"], ["updated_at", "2015-10-19 10:20:38.452175"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag18"], ["created_at", "2015-10-19 10:20:38.453495"], ["updated_at", "2015-10-19 10:20:38.453495"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.454742"], ["updated_at", "2015-10-19 10:20:38.454742"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin9@example.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin9@example.com"], ["encrypted_password", "$2a$04$DvZivSVViRLEaP5m9u9LzeqBqmCd3RcN2DiUMcpzgpYdw65fFh//W"], ["created_at", "2015-10-19 10:20:38.458250"], ["updated_at", "2015-10-19 10:20:38.458250"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.461284"], ["updated_at", "2015-10-19 10:20:38.461284"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by Admin::PostsController#page_related as HTML
+  Parameters: {"relationship_name"=>"tags", "page"=>"2", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_collection_table.html.erb (0.2ms)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.470562"], ["updated_at", "2015-10-19 10:20:38.470562"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.472496"], ["updated_at", "2015-10-19 10:20:38.472496"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag19"], ["created_at", "2015-10-19 10:20:38.474404"], ["updated_at", "2015-10-19 10:20:38.474404"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag20"], ["created_at", "2015-10-19 10:20:38.475634"], ["updated_at", "2015-10-19 10:20:38.475634"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.476879"], ["updated_at", "2015-10-19 10:20:38.476879"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin10@example.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin10@example.com"], ["encrypted_password", "$2a$04$LClyc1BdCqsvjiTIQhkEA.cF16cTz0dcYZb9jrx5OLmv09QA64NmO"], ["created_at", "2015-10-19 10:20:38.480023"], ["updated_at", "2015-10-19 10:20:38.480023"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.483301"], ["updated_at", "2015-10-19 10:20:38.483301"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by Admin::PostsController#relate as HTML
+  Parameters: {"relationship_name"=>"creator", "related_id"=>"2", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "posts" SET "creator_id" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["creator_id", 2], ["updated_at", "2015-10-19 10:20:38.486982"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.493614"], ["updated_at", "2015-10-19 10:20:38.493614"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.495532"], ["updated_at", "2015-10-19 10:20:38.495532"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag21"], ["created_at", "2015-10-19 10:20:38.497514"], ["updated_at", "2015-10-19 10:20:38.497514"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag22"], ["created_at", "2015-10-19 10:20:38.498889"], ["updated_at", "2015-10-19 10:20:38.498889"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.500110"], ["updated_at", "2015-10-19 10:20:38.500110"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdminUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin11@example.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "admin11@example.com"], ["encrypted_password", "$2a$04$yEPTzIc1RdNoLZ2/asg4d.I4lJgSsrl5UolY/4PC.PuIjw.N2Muiq"], ["created_at", "2015-10-19 10:20:38.503467"], ["updated_at", "2015-10-19 10:20:38.503467"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.506389"], ["updated_at", "2015-10-19 10:20:38.506389"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by Admin::PostsController#relate as HTML
+  Parameters: {"relationship_name"=>"creator", "related_id"=>"2", "id"=>"1"}
+  [1m[36mAdminUser Load (0.0ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  UPDATE "posts" SET "creator_id" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["creator_id", 2], ["updated_at", "2015-10-19 10:20:38.509868"], ["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.515120"], ["updated_at", "2015-10-19 10:20:38.515120"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.517319"], ["updated_at", "2015-10-19 10:20:38.517319"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag23"], ["created_at", "2015-10-19 10:20:38.519632"], ["updated_at", "2015-10-19 10:20:38.519632"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag24"], ["created_at", "2015-10-19 10:20:38.521112"], ["updated_at", "2015-10-19 10:20:38.521112"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.522663"], ["updated_at", "2015-10-19 10:20:38.522663"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin12@example.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin12@example.com"], ["encrypted_password", "$2a$04$6GkMvpCgV8.MswcdZ2.ktObIKLRWR7j/265.iweK23wOLFekOKORW"], ["created_at", "2015-10-19 10:20:38.526226"], ["updated_at", "2015-10-19 10:20:38.526226"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.528896"], ["updated_at", "2015-10-19 10:20:38.528896"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by Admin::PostsController#relate as HTML
+  Parameters: {"relationship_name"=>"creator", "related_id"=>"2", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.0ms)[0m  [1mUPDATE "posts" SET "creator_id" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["creator_id", 2], ["updated_at", "2015-10-19 10:20:38.532485"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.536729"], ["updated_at", "2015-10-19 10:20:38.536729"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.538235"], ["updated_at", "2015-10-19 10:20:38.538235"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag25"], ["created_at", "2015-10-19 10:20:38.540976"], ["updated_at", "2015-10-19 10:20:38.540976"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag26"], ["created_at", "2015-10-19 10:20:38.542270"], ["updated_at", "2015-10-19 10:20:38.542270"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.543521"], ["updated_at", "2015-10-19 10:20:38.543521"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdminUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin13@example.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "admin13@example.com"], ["encrypted_password", "$2a$04$BqAkymn6s.OjgBcm2aDn/eA8TNZD5TzENcidOwnLobnmRaJjtxsiC"], ["created_at", "2015-10-19 10:20:38.547334"], ["updated_at", "2015-10-19 10:20:38.547334"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.550416"], ["updated_at", "2015-10-19 10:20:38.550416"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "taggings"[0m
+Processing by Admin::PostsController#relate as HTML
+  Parameters: {"relationship_name"=>"tags", "related_id"=>"2", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTag Load (0.0ms)[0m  [1mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 2], ["created_at", "2015-10-19 10:20:38.555384"], ["updated_at", "2015-10-19 10:20:38.555384"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "taggings"
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.560156"], ["updated_at", "2015-10-19 10:20:38.560156"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.562462"], ["updated_at", "2015-10-19 10:20:38.562462"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag27"], ["created_at", "2015-10-19 10:20:38.564780"], ["updated_at", "2015-10-19 10:20:38.564780"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag28"], ["created_at", "2015-10-19 10:20:38.566279"], ["updated_at", "2015-10-19 10:20:38.566279"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.567924"], ["updated_at", "2015-10-19 10:20:38.567924"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdminUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin14@example.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "admin14@example.com"], ["encrypted_password", "$2a$04$.SnXgHH.lFWrfq3P8l/hGO6342IO25SA5Uf7d0JFG4DUUoD9Yj/ku"], ["created_at", "2015-10-19 10:20:38.572092"], ["updated_at", "2015-10-19 10:20:38.572092"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.574750"], ["updated_at", "2015-10-19 10:20:38.574750"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "taggings"[0m
+Processing by Admin::PostsController#relate as HTML
+  Parameters: {"relationship_name"=>"tags", "related_id"=>"2", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTag Load (0.0ms)[0m  [1mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 2], ["created_at", "2015-10-19 10:20:38.579645"], ["updated_at", "2015-10-19 10:20:38.579645"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.583648"], ["updated_at", "2015-10-19 10:20:38.583648"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.585119"], ["updated_at", "2015-10-19 10:20:38.585119"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag29"], ["created_at", "2015-10-19 10:20:38.586752"], ["updated_at", "2015-10-19 10:20:38.586752"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag30"], ["created_at", "2015-10-19 10:20:38.587892"], ["updated_at", "2015-10-19 10:20:38.587892"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.590219"], ["updated_at", "2015-10-19 10:20:38.590219"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin15@example.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin15@example.com"], ["encrypted_password", "$2a$04$qkmU2NlUKq95tyxopH0mROmwUCTb7ffUtCDo4cypQapgqzKlc1.hm"], ["created_at", "2015-10-19 10:20:38.593531"], ["updated_at", "2015-10-19 10:20:38.593531"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.596151"], ["updated_at", "2015-10-19 10:20:38.596151"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "taggings"
+Processing by Admin::PostsController#relate as HTML
+  Parameters: {"relationship_name"=>"tags", "related_id"=>"2", "id"=>"1"}
+  [1m[36mAdminUser Load (0.0ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTag Load (0.0ms)[0m  SELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 2], ["created_at", "2015-10-19 10:20:38.601122"], ["updated_at", "2015-10-19 10:20:38.601122"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.605119"], ["updated_at", "2015-10-19 10:20:38.605119"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.606576"], ["updated_at", "2015-10-19 10:20:38.606576"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag31"], ["created_at", "2015-10-19 10:20:38.608111"], ["updated_at", "2015-10-19 10:20:38.608111"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag32"], ["created_at", "2015-10-19 10:20:38.609187"], ["updated_at", "2015-10-19 10:20:38.609187"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.610299"], ["updated_at", "2015-10-19 10:20:38.610299"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdminUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin16@example.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "admin16@example.com"], ["encrypted_password", "$2a$04$qUdUUlxdVLDJ0khP8baeu.qy7Myph0V5XTWV1gKzFG4v264oC..Pq"], ["created_at", "2015-10-19 10:20:38.613649"], ["updated_at", "2015-10-19 10:20:38.613649"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:38.615966"], ["updated_at", "2015-10-19 10:20:38.615966"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "taggings"[0m
+Processing by Admin::PostsController#relate as HTML
+  Parameters: {"relationship_name"=>"tags", "related_id"=>"2", "id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 2], ["created_at", "2015-10-19 10:20:38.621530"], ["updated_at", "2015-10-19 10:20:38.621530"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/admin/dashboard
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+  [1m[35mTag Load (0.0ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ?  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Music"], ["created_at", "2015-10-19 10:20:38.627393"], ["updated_at", "2015-10-19 10:20:38.627393"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AutocompleteController#index as JSON
+  Parameters: {"model"=>"tag"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Music"], ["created_at", "2015-10-19 10:20:38.632713"], ["updated_at", "2015-10-19 10:20:38.632713"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AutocompleteController#index as JSON
+  Parameters: {"model"=>"tag"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Music"], ["created_at", "2015-10-19 10:20:38.637105"], ["updated_at", "2015-10-19 10:20:38.637105"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AutocompleteController#index as JSON
+  Parameters: {"q"=>"Mus", "model"=>"tag"}
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" WHERE (LOWER(tags.name) LIKE 'mus%')  ORDER BY tags.name ASC
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Music"], ["created_at", "2015-10-19 10:20:38.642200"], ["updated_at", "2015-10-19 10:20:38.642200"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AutocompleteController#index as JSON
+  Parameters: {"q"=>"Mus", "model"=>"tag"}
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" WHERE (LOWER(tags.name) LIKE 'mus%')  ORDER BY tags.name ASC
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Music"], ["created_at", "2015-10-19 10:20:38.647346"], ["updated_at", "2015-10-19 10:20:38.647346"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AutocompleteController#index as JSON
+  Parameters: {"q"=>"Mus", "model"=>"tag"}
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" WHERE (LOWER(tags.name) LIKE 'mus%')  ORDER BY tags.name ASC
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Music"], ["created_at", "2015-10-19 10:20:38.652569"], ["updated_at", "2015-10-19 10:20:38.652569"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AutocompleteController#index as JSON
+  Parameters: {"q"=>"Mus", "model"=>"tag"}
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" WHERE (LOWER(tags.name) LIKE 'mus%')  ORDER BY tags.name ASC
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:38.658185"], ["updated_at", "2015-10-19 10:20:38.658185"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:38.660179"], ["updated_at", "2015-10-19 10:20:38.660179"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Tag33"], ["created_at", "2015-10-19 10:20:38.662077"], ["updated_at", "2015-10-19 10:20:38.662077"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdminUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin17@example.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "admin17@example.com"], ["encrypted_password", "$2a$04$cae8Se/q6v5jhKcWO721L.RWlpfwoNWS4Hy6IU9qYKHv5coFtIzoq"], ["created_at", "2015-10-19 10:20:38.665250"], ["updated_at", "2015-10-19 10:20:38.665250"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/admin/login" for 127.0.0.1 at 2015-10-19 13:50:38 +0330
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/devise/shared/_links.erb (1.3ms)
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (30.2ms)
+Completed 200 OK in 268ms (Views: 266.2ms | ActiveRecord: 0.0ms)
+Started POST "/admin/login" for 127.0.0.1 at 2015-10-19 13:50:38 +0330
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "admin_user"=>{"email"=>"admin17@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[35mAdminUser Load (0.2ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["email", "admin17@example.com"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "admin_users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?  [["last_sign_in_at", "2015-10-19 10:20:38.969166"], ["current_sign_in_at", "2015-10-19 10:20:38.969166"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-10-19 10:20:38.969776"], ["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/admin
+Completed 302 Found in 29ms (ActiveRecord: 0.4ms)
+Started GET "/admin" for 127.0.0.1 at 2015-10-19 13:50:38 +0330
+Processing by Admin::DashboardController#index as HTML
+  [1m[35mAdminUser Load (0.1ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/page/index.html.arb (9.1ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.1ms)
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ?[0m  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:39.014552"], ["updated_at", "2015-10-19 10:20:39.014552"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/admin/posts" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::PostsController#index as HTML
+  [1m[36mAdminUser Load (0.0ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "posts" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "posts" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "posts" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" desc LIMIT 30 OFFSET 0
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mTagging Load (0.6ms)[0m  SELECT "taggings".* FROM "taggings"
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/resource/index.html.arb (128.7ms)
+Completed 200 OK in 144ms (Views: 139.2ms | ActiveRecord: 1.2ms)
+Started DELETE "/admin/posts/1" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::PostsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAdminUser Load (0.1ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/admin/posts
+Completed 302 Found in 28ms (ActiveRecord: 0.3ms)
+Started GET "/admin/posts" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::PostsController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "posts" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mTagging Load (0.1ms)[0m  SELECT "taggings".* FROM "taggings"
+  [1m[36mTag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/resource/index.html.arb (44.2ms)
+Completed 200 OK in 48ms (Views: 44.7ms | ActiveRecord: 0.4ms)
+  [1m[35m (3.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:39.252810"], ["updated_at", "2015-10-19 10:20:39.252810"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:39.254603"], ["updated_at", "2015-10-19 10:20:39.254603"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag34"], ["created_at", "2015-10-19 10:20:39.256384"], ["updated_at", "2015-10-19 10:20:39.256384"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin18@example.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin18@example.com"], ["encrypted_password", "$2a$04$ecw6X5abtewQ5/I.Sh5V5uHt9REcsDBYj9fsf9vUSIuKj4pR7d08e"], ["created_at", "2015-10-19 10:20:39.259724"], ["updated_at", "2015-10-19 10:20:39.259724"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/admin/login" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (9.9ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+Started POST "/admin/login" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "admin_user"=>{"email"=>"admin18@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["email", "admin18@example.com"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "admin_users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["last_sign_in_at", "2015-10-19 10:20:39.281635"], ["current_sign_in_at", "2015-10-19 10:20:39.281635"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-10-19 10:20:39.282142"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/admin
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+Started GET "/admin" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.0ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/page/index.html.arb (6.5ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ?  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:39.297045"], ["updated_at", "2015-10-19 10:20:39.297045"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/admin/tags/1/edit" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::TagsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTag Load (0.0ms)[0m  [1mSELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_add_to_association.html.erb (1.7ms)
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" INNER JOIN "taggings" ON "posts"."id" = "taggings"."taggable_id" WHERE "taggings"."tag_id" = ? AND "taggings"."taggable_type" = ? LIMIT 25 OFFSET 0[0m  [["tag_id", 1], ["taggable_type", "Post"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "posts" INNER JOIN "taggings" ON "posts"."id" = "taggings"."taggable_id" WHERE "taggings"."tag_id" = ? AND "taggings"."taggable_type" = ?[0m  [["tag_id", 1], ["taggable_type", "Post"]]
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_collection_table.html.erb (15.9ms)
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_form.html.erb (27.6ms)
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/resource/edit.html.arb (38.6ms)
+Completed 200 OK in 49ms (Views: 46.4ms | ActiveRecord: 0.5ms)
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:39.355963"], ["updated_at", "2015-10-19 10:20:39.355963"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:39.358318"], ["updated_at", "2015-10-19 10:20:39.358318"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag35"], ["created_at", "2015-10-19 10:20:39.360624"], ["updated_at", "2015-10-19 10:20:39.360624"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin19@example.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin19@example.com"], ["encrypted_password", "$2a$04$knny9Uaz7N9/Dn63sC9gKeQ6j7Kkon2l5Z1YQmZ6bagE8SeX1RZdy"], ["created_at", "2015-10-19 10:20:39.364856"], ["updated_at", "2015-10-19 10:20:39.364856"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/admin/login" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (9.9ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+Started POST "/admin/login" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "admin_user"=>{"email"=>"admin19@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["email", "admin19@example.com"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "admin_users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["last_sign_in_at", "2015-10-19 10:20:39.386574"], ["current_sign_in_at", "2015-10-19 10:20:39.386574"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-10-19 10:20:39.387102"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/admin
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+Started GET "/admin" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/page/index.html.arb (5.2ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.1ms)
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ?  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:39.400682"], ["updated_at", "2015-10-19 10:20:39.400682"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/admin/posts/1/edit" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_add_to_association.html.erb (0.7ms)
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ? LIMIT 25 OFFSET 0  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ?[0m  [["taggable_id", 1], ["taggable_type", "Post"]]
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_collection_table.html.erb (4.1ms)
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_form.html.erb (29.4ms)
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/resource/edit.html.arb (39.2ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:39.454720"], ["updated_at", "2015-10-19 10:20:39.454720"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:39.456343"], ["updated_at", "2015-10-19 10:20:39.456343"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag36"], ["created_at", "2015-10-19 10:20:39.458321"], ["updated_at", "2015-10-19 10:20:39.458321"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin20@example.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin20@example.com"], ["encrypted_password", "$2a$04$iu8lzjH9lpgH7D/mAa1Z3OB7FURmvDHXR1uIEd2oyeQqIDSPATFoy"], ["created_at", "2015-10-19 10:20:39.461889"], ["updated_at", "2015-10-19 10:20:39.461889"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/admin/login" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (10.9ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+Started POST "/admin/login" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "admin_user"=>{"email"=>"admin20@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["email", "admin20@example.com"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "admin_users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["last_sign_in_at", "2015-10-19 10:20:39.485414"], ["current_sign_in_at", "2015-10-19 10:20:39.485414"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-10-19 10:20:39.485985"], ["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/admin
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+Started GET "/admin" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/page/index.html.arb (5.8ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.1ms)
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ?  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:39.500081"], ["updated_at", "2015-10-19 10:20:39.500081"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/admin/posts/1/edit" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAdminUser Load (0.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_add_to_association.html.erb (0.5ms)
+  [1m[35mTag Load (0.1ms)[0m  SELECT  "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ? LIMIT 25 OFFSET 0  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ?[0m  [["taggable_id", 1], ["taggable_type", "Post"]]
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_collection_table.html.erb (2.9ms)
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_form.html.erb (20.5ms)
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/resource/edit.html.arb (29.1ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@example.com"], ["name", "Bill Tester"], ["created_at", "2015-10-19 10:20:39.540872"], ["updated_at", "2015-10-19 10:20:39.540872"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("title", "body", "published_at", "featured", "creator_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "My Great Post"], ["body", "\"Keep back!\" said several. The crowd swayed a little, and I elbowed my way through.  Every one seemed greatly excited.  I heard a peculiar humming sound from the pit. \"I say!\" said Ogilvy; \"help keep these idiots back.  We don't know what's in the confounded thing, you know!\" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within.  Nearly two feet of shining screw projected.  Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw.  I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion.  I stuck my elbow into the person behind me, and turned my head towards the Thing again.  For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge--possibly something a little unlike us terrestrial men, but in"], ["published_at", "2015-10-21 10:20:37.967452"], ["featured", "f"], ["creator_id", 1], ["created_at", "2015-10-19 10:20:39.542801"], ["updated_at", "2015-10-19 10:20:39.542801"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Tag37"], ["created_at", "2015-10-19 10:20:39.544804"], ["updated_at", "2015-10-19 10:20:39.544804"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mAdminUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = 'admin21@example.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin21@example.com"], ["encrypted_password", "$2a$04$uQ2eZ.zEPeiRziDokdqhFO4hO65INoAR/kgyBhue1JhrYNJQTg6.G"], ["created_at", "2015-10-19 10:20:39.548644"], ["updated_at", "2015-10-19 10:20:39.548644"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/admin/login" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (12.6ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+Started POST "/admin/login" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "admin_user"=>{"email"=>"admin21@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["email", "admin21@example.com"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "admin_users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["last_sign_in_at", "2015-10-19 10:20:39.575497"], ["current_sign_in_at", "2015-10-19 10:20:39.575497"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-10-19 10:20:39.576248"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/admin
+Completed 302 Found in 7ms (ActiveRecord: 0.3ms)
+Started GET "/admin" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/page/index.html.arb (5.6ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.1ms)
+  [1m[35mTag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ?  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "taggings" ("taggable_type", "taggable_id", "tag_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["taggable_type", "Post"], ["taggable_id", 1], ["tag_id", 1], ["created_at", "2015-10-19 10:20:39.590090"], ["updated_at", "2015-10-19 10:20:39.590090"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/admin/posts/1/edit" for 127.0.0.1 at 2015-10-19 13:50:39 +0330
+Processing by Admin::PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAdminUser Load (0.1ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_add_to_association.html.erb (0.5ms)
+  [1m[35mTag Load (0.1ms)[0m  SELECT  "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ? LIMIT 25 OFFSET 0  [["taggable_id", 1], ["taggable_type", "Post"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = ? AND "taggings"."taggable_type" = ?[0m  [["taggable_id", 1], ["taggable_type", "Post"]]
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_collection_table.html.erb (3.2ms)
+  Rendered /Users/mani/Projects/acceptto/active_admin_associations/app/views/admin/shared/_form.html.erb (21.2ms)
+  Rendered /Users/mani/.rvm/gems/ruby-2.2.2/gems/activeadmin-1.0.0.pre2/app/views/active_admin/resource/edit.html.arb (29.9ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
