@@ -21,7 +21,7 @@ describe Admin::PostsController do
     end
     
     it { should respond_with(:redirect) }
-    it { should set_flash.to('The recored has been related.') }
+    it { should set_flash.to('The record has been related.') }
 
     it "adds a new tagging" do
       Tagging.count.should == @initial_tagging_count + 1
@@ -39,7 +39,7 @@ describe Admin::PostsController do
     end
     
     it { should respond_with(:redirect) }
-    it { should set_flash.to('The recored has been related.') }
+    it { should set_flash.to('The record has been related.') }
     
     it 'properly relates the record' do
       post.reload.creator(true).should == user
@@ -54,7 +54,7 @@ describe Admin::PostsController do
     end
     
     it { should respond_with(:redirect) }
-    it { should set_flash.to('The recored has been unrelated.') }
+    it { should set_flash.to('The record has been unrelated.') }
 
     it "removes a tagging" do
       Tagging.count.should == @initial_tagging_count -1
@@ -71,7 +71,7 @@ describe Admin::PostsController do
     end
     
     it { should respond_with(:redirect) }
-    it { should set_flash.to('The recored has been unrelated.') }
+    it { should set_flash.to('The record has been unrelated.') }
 
     it "removes the creator" do
       post.reload.creator(true).should be_nil
