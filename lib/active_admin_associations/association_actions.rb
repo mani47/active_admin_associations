@@ -35,7 +35,9 @@ module ActiveAdminAssociations
       def relate_record
         if relationship_reflection.collection?
           record_to_relate = relationship_class.find(params[:related_id])
-          resource.send(relationship_name) << record_to_relate
+          unless resource.send(relationship_name).any? { |r| r.id == record_to_relate.id }
+            resource.send(relationship_name) << record_to_relate
+          end
         else
           resource.update_attribute(relationship_reflection.foreign_key, params[:related_id])
         end
