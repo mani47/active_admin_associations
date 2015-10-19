@@ -28,15 +28,11 @@
               <%- end -%>
             <%- end -%>
             <td class="actions">
-              <%- if resource_administrated?(record.class) -%>
                 <%= render :partial => 'admin/shared/association_collection_table_actions', :locals => {
                   :record => record,
                   :object => object,
                   :relationship => relationship
                 } %>
-              <%- else -%>
-                &nbsp;
-              <%- end -%>
             </td>
           </tr>
         <%- end -%>
